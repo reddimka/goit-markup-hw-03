@@ -163,6 +163,7 @@ body {
   height: 50px;
 }
 .features-list-hero {
+  background-color: burlywood;
   display: flex;
   padding-left: 215px;
   padding-right: 215px;
@@ -209,7 +210,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: vsr(--text-taitle-dark);
+  color: var(--text-taitle-dark);
+  margin-bottom: 50px;
+}
+.what-we-do {
+}
+.box-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.box-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.box-list-item{
+  width: 370px;
+  height: 294px;
 }
 .description-made {
   font-weight: bold;
