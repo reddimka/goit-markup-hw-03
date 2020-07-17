@@ -17,6 +17,9 @@ html {
   margin: 0px;
   padding: 0px;
 }
+h1 {
+  margin: 0px;
+}
 body {
   background-color: var(--tex-taitle-light);
   font-style: normal;
@@ -78,10 +81,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
-.navigation-list-link,.logo {
+.logo {
   padding-top:24px;
   padding-bottom: 24px;
 }
+.navigation-list-link, .header-address {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .navigation-list-link,
 .header-mail,
 .header-tel {
@@ -110,6 +118,12 @@ body {
   color: var(--accent-color-text);
 }
 /*HERO SECTION*/
+.hero {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -117,17 +131,25 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  color: var(--tex-taitle-light);
+  color: var(--accent-color-text);
+  margin: auto;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  margin-bottom: 30px;
 }
 .modal-button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-
   color: var(--tex-taitle-light);
   background-color: var(--hover-color);
+  
+  margin: auto;
+  width: 200px;
+  height: 50px;
 }
 .subtitle-hero {
   font-weight: bold;
