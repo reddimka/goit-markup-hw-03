@@ -213,8 +213,7 @@ body {
   color: var(--text-taitle-dark);
   margin-bottom: 50px;
 }
-.what-we-do {
-}
+
 .box-list {
   display: flex;
   margin-left: auto;
@@ -238,6 +237,29 @@ body {
   color: var(--tex-taitle-light);
 }
 /* о команде*/
+.team-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.team-foto {
+  margin-bottom: 30px;
+}
+.team {
+  margin-bottom: 10px;
+}
+.position {
+  margin-bottom: 16px;
+}
+.social-link-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-list-item:not(:last-child) {
+margin-right: 30px;
+}
 .team,
 .position {
   font-weight: 500;
