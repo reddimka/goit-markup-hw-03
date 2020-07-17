@@ -273,6 +273,21 @@ margin-right: 30px;
   font-weight: normal;
   color: var(--accent-color-text);
 }
+.clients-list-item:not(:last-child) {
+margin-right: 30px;
+}
+.customer-link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+}
+.clients-list {
+  display: flex;
+}
 /*подвал*/
 .logo-footer {
   font-family: var(--secondary-font);
