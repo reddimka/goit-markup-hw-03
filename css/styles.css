@@ -20,6 +20,9 @@ html {
 h1 {
   margin: 0px;
 }
+img {
+  display: block;
+}
 body {
   background-color: var(--tex-taitle-light);
   font-style: normal;
@@ -36,8 +39,12 @@ body {
 .list {
   list-style: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container {
-  width: 1200px;
+  width: 1570px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -124,7 +131,6 @@ body {
   flex-direction: column;
   padding-top: 200px;
   padding-bottom: 200px;
-  flex-grow: 1;
 }
 
 .hero-title {
@@ -156,6 +162,24 @@ body {
   width: 200px;
   height: 50px;
 }
+.features-list-hero {
+  display: flex;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.list-hero {
+  display: flex;
+  width: 1170px;
+  height: 251px;
+}
+.list-hero-item:not(:last-child) {
+  margin-right: 30px;
+}
+.list-hero-item {
+  margin-top: 30px;
+  width: 270px;
+  height: 251px;
+}
 .subtitle-hero {
   font-weight: bold;
   font-size: 14px;
@@ -164,6 +188,7 @@ body {
   text-transform: uppercase;
 
   color: var(--text-taitle-dark);
+  margin-bottom: 10px;
 }
 .description {
   font-weight: normal;
@@ -172,7 +197,10 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--accent-color-text);
+   width: 270px;
+   height: 75px;
 }
+
 /* чем мы занимаемся*/
 .title {
   font-weight: bold;
