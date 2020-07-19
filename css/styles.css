@@ -44,7 +44,7 @@ body {
   padding-bottom: 94px;
 }
 .container {
-  width: 1570px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -126,7 +126,6 @@ body {
 }
 /*HERO SECTION*/
 .hero {
-  background-color: aquamarine;
   display: flex;
   flex-direction: column;
   padding-top: 200px;
@@ -141,12 +140,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color-text);
-  margin: auto;
-  
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
   margin-bottom: 30px;
 
 }
@@ -157,21 +150,15 @@ body {
   letter-spacing: 0.06em;
   color: var(--tex-taitle-light);
   background-color: var(--hover-color);
-  
-  margin: auto;
+  margin:auto ;
   width: 200px;
   height: 50px;
 }
 .features-list-hero {
-  background-color: burlywood;
   display: flex;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 .list-hero {
   display: flex;
-  width: 1170px;
-  height: 251px;
 }
 .list-hero-item:not(:last-child) {
   margin-right: 30px;
@@ -209,17 +196,12 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--text-taitle-dark);
   margin-bottom: 50px;
 }
 
 .box-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 .box-list-item:not(:last-child) {
   margin-right: 30px;
@@ -239,10 +221,6 @@ body {
 /* о команде*/
 .team-list {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 .team-foto {
   margin-bottom: 30px;
@@ -254,8 +232,11 @@ body {
   margin-bottom: 16px;
 }
 .social-link-list {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.social-link-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 .team-list-item:not(:last-child) {
 margin-right: 30px;
@@ -299,6 +280,7 @@ margin-right: 30px;
   background-color: #2F303A;
 }
 .footer-address {
+  padding-left: 214px;
   padding-top: 60px;
   padding-bottom: 161px;
   display: flex;
@@ -369,6 +351,16 @@ margin-right: 30px;
   margin-bottom: 20px;
 }
 /*портфолио*/
+.filter-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+
+.filter-list-item:not(:last-child){
+  margin-right: 9px;
+}
 .button-filter {
   font-style: normal;
   font-weight: 500;
@@ -383,6 +375,24 @@ margin-right: 30px;
   background-color: var(--hover-color);
   color: var(--tex-taitle-light);
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.element-portfolio{
+  width: 370px;
+  height: 404px;
+  display: block;
+  margin-right: 30px;
+}
+.element-portfolio:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-img {
+  margin-bottom: 20px;
+}
 .title-portfolio {
   font-style: normal;
   font-weight: bold;
@@ -390,6 +400,7 @@ margin-right: 30px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-taitle-dark);
+  margin-bottom: 4px;
 }
 .subtatle-portfolio {
   font-weight: normal;
@@ -404,4 +415,6 @@ margin-right: 30px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: var(--tex-taitle-light);
+  width:322px;
+  height:168px;
 }
