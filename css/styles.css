@@ -285,10 +285,32 @@ margin-right: 30px;
   width: 170px;
   height: 90px;
 }
+.customer-link:hover{
+  border-color: var(--hover-color);
+  color: var(--hover-color);
+}
+
 .clients-list {
   display: flex;
 }
 /*подвал*/
+.footer {
+  display: flex;
+  background-color: #2F303A;
+}
+.footer-address {
+  padding-top: 60px;
+  padding-bottom: 161px;
+  display: flex;
+  flex-direction:column;
+  padding-right: 69px;
+}
+.logo-footer {
+  margin-bottom: 20px;
+}
+.contacts:not(:last-child) {
+  margin-bottom: 9px;
+}
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -297,7 +319,30 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   color: var(--tex-taitle-light);
 }
+.footer-social {
+  display: flex;
+  padding-top: 72px;
+  flex-direction: column
+}
+.footer-social-link-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.social-link-list-item:not(:last-child) {
+  margin-right: 10px;
+}
 
+.social-link-list-item {
+  display: flex;
+} 
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 44px;
+ height: 44px;
+}
 .address,
 .footer-mail,
 .footer-tel {
@@ -313,6 +358,7 @@ margin-right: 30px;
   font-style: normal;
   color: var(--accent-color-text);
 }
+
 .footer-text {
   font-weight: bold;
   font-size: 14px;
@@ -320,6 +366,7 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--tex-taitle-light);
+  margin-bottom: 20px;
 }
 /*портфолио*/
 .button-filter {
